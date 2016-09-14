@@ -1,0 +1,20 @@
+{
+  "name": "vk_team_work",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "olenatretyak <kira.eleni@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

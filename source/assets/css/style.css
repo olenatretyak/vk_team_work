@@ -1,0 +1,168 @@
+.header{
+  background-color: #4c75a3;
+  height:42px;
+  width: 103%;
+}
+html,body{
+  overflow-x:hidden;
+}
+input.text.ts_input {
+  border: 0;
+  box-sizing: border-box;
+  padding: 6px 6px 6px 19px;
+  margin: 7px 0;
+  height: 28px;
+  line-height: 16px;
+  width: 230px;
+  border-radius: 14px;
+  -o-transition: background-color 0.05s, color 0.05s;
+  transition: background-color 0.05s, color 0.05s;
+  background: #31537a url(/images/icons/dev_head_magglass.png) no-repeat;
+
+  border-left: 8px solid transparent;
+  background-position: left 8px;
+  color: #d9e2ec;
+}
+#box_loader .loader, #layer_stl_text, #side_bar .left_icon, #stl_text, .audio_add, .audio_hq_label_show .audio_row.hq .audio_hq_label, .audio_play, .audio_row .audio_acts .audio_act>div, .audio_search_rows .audio_row.hq .audio_hq_label, .box_body.box_loading .box_x_button, .box_body.box_loading_empty:before, .box_grey .box_title .back, .box_loading .box_x_button, .box_title .back, .box_title .security, .box_title_wrap.box_grey.box_loading .box_x_button, .box_title_wrap.box_grey .box_x_button, .box_x_button, .box_x_button.box_x_tabs, .button_gray .button_lock, .button_lock, .checkbox:before, .emoji_css, .error, .event:after, .flat_button.flat_button_loading:before, .flat_button.secondary.flat_button_loading:before, .flat_button.ui_load_more_btn.with_arrow:after, .hide_icon, .hint_icon:after, .info_msg, .left_hide_button, .left_menu_more:after, .left_settings_inner, .link_arrowed_bottom, .media-check-btn-icon, .media-photo-thumb-background, .media-video-play, .media-video-thumb-background, .media-video-thumb-wrap-background, .media_check_btn_wrap .media_check_btn, .mob_onl, .ok_msg, .online:after, .ow_ava, .page_verified, .pages_loading, .progress, .progress_inline, .progress_inv, .progress_inv_img, .progress_inv_mini, .radiobtn:before, .round_spinner, .round_spinner_big, .sort_not_rev_icon, .sort_rev_icon, .summary_tab_x, .top_audio_player .top_audio_player_btn .top_audio_player_btn_icon, .top_home_link .top_home_logo, .top_nav_btn .top_nav_btn_icon, .top_profile_arrow, .ts_cont_wrap .page_verified, .ts_contact_photo.online:after, .ts_contact_status, .upload_progress, .video_thumb_play, .video_wm, .wk_wiki_content.box_loading .box_x_button, .wk_wiki_content.box_loading_empty:before, input.text.ts_input {
+  -ms-high-contrast-adjust: none;
+}
+.fakeinput, .fakeinput~.placeholder .ph_input, div[contenteditable=true], div[contenteditable=true]~.placeholder .ph_input, input.big_text, input.big_text~.placeholder .ph_input, input.dark, input.dark~.placeholder .ph_input, input.search, input.search~.placeholder .ph_input, input.text, input.text~.placeholder .ph_input, textarea, textarea~.placeholder .ph_input {
+  color: #000;
+
+  margin: 0;
+  border: 1px solid #d3d9de;
+}
+.fakeinput, div[contenteditable=true], input.big_text, input.dark, input.search, input.text, textarea {
+  background: #fff;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+.fakeinput, div[contenteditable=true], input.big_text, input.file, input.search, input.text, input[type=button], input[type=password], input[type=search], input[type=submit], input[type=text], input[type~=email], input[type~=password], input[type~=search], input[type~=text], textarea {
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+  outline: none;
+  box-shadow: none;
+}
+user agent stylesheet
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+}
+user agent stylesheet
+input {
+  -webkit-appearance: textfield;
+  background-color: white;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  -webkit-rtl-ordering: logical;
+  -webkit-user-select: text;
+  cursor: auto;
+  border-style: inset;
+  border-color: initial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 18.3333px Arial;
+}
+user agent stylesheet
+input, textarea, keygen, select, button, meter, progress {
+  -webkit-writing-mode: horizontal-tb;
+}
+#searchLogo{
+  margin-left: -220px;
+}
+#jjj{
+  margin-top: 2px;
+  font-weight: 600;
+  color: white;
+}
+#bgColor{
+  background-color: #edeef0;
+}
+.btn-mod{
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+.btn-mod2{
+  width: 100px;
+  background-color: #4c75a3;
+  color: white;
+}
+.btn-mod:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.textcenter{
+  text-align: center;
+}
+.brforms{
+  background-color: white;
+  padding: 20px;
+}
+#leftfoto{
+  margin-left: -25px;
+}
+.ij_button.hover, .ij_button:hover {
+  background-color: #68b35d;
+}
+.index_rcolumn .flat_button {
+  margin-top: 5px;
+}
+.button_wide button, .flat_button.button_wide {
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.button_big_text.flat_button {
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 3px;
+}
+.button_blue button.hover, .button_blue button:hover, .flat_button.hover, .flat_button:hover {
+  background-color: #6888ad;
+  text-decoration: none;
+}
+.ij_button {
+  background-color: #5fb053;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+.button_wide {
+  display: block;
+}
+.button_blue button, .button_gray button, .button_light_gray button, .flat_button {
+  padding: 7px 16px 8px;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #5fb053;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+.form-control{
+  margin: 0px;
+}
