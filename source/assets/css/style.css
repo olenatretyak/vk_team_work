@@ -164,5 +164,28 @@ input, textarea, keygen, select, button, meter, progress {
   box-sizing: border-box;
 }
 .form-control{
-  margin: 0px;
+  margin:0px;
 }
+.photo {
+  display: block; 
+  position: relative; 
+  margin-left: -200px;
+  margin-top: -2px;
+   }
+.photo:hover::after {
+  content: attr(data-title); 
+  width: 300px;
+  position: absolute; 
+  left: 20%; top: -80px; 
+  z-index: 1; 
+  background: white; 
+  font-family: Arial, sans-serif; 
+  font-size: 11px; 
+  padding: 5px 10px; 
+  border: 1px solid #333; 
+   }
+
+   #ggg{
+    padding-right: 6px;
+    padding-left: 6px;
+   }
