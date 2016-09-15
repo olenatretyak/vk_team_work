@@ -190,3 +190,7 @@ input, textarea, keygen, select, button, meter, progress {
     padding-right: 6px;
     padding-left: 6px;
    }
+   .header{
+    position: fixed;
+    z-index: 2;
+   }
